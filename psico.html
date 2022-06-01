@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Centro</title>
+            <link rel="stylesheet" href="psico.css" />
+        </head>
+
+        <body>
+            <header class="header">
+            <nav>
+                <img class="logo" src="logo.png">
+                <p id="psicolife">Psicolife</p>
+                <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                </div>
+
+                <ul class="nav-list">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#consultas">Consultas</a></li>
+                <li><a href="#tituloform">Contato</a></li>
+                <li><a href="#institucional">Institucional</a></li>
+                </ul>
+            </nav>
+            </header>
+
+            <div id="principal">
+                <p class="inicio"> Atendimentos online para todo o Brasil.<br>
+                    Encontre o seu psicólogo ideal agora mesmo<br>
+                    e agende a sua consulta!</p>
+                <img id="imageminicio" src="psicologia.png">
+            </div>
+
+            <div id="sobre">
+                <h2>Sobre</h2>
+               <div class="textimage">
+                <p class="textosobre">A Psicolife é uma clínica com atendimento<br> online e presencial,definido<br> pela sua preferência, 
+                    com profissionais<br> qualificados.</p>
+                <img id="imagemsobre" src="tecnologia.png" alt="">
+                </div>
+            </div>
+
+            <div id="beneficios">
+                <h2 class="titulolista">Benefícios da terapia</h2>
+                <ul class="lista">
+                    <li><strong>1.</strong> Autoconhecimento e autocontrole</li>
+                    <li><strong>2.</strong> Enxergar as suas habilidades </li>
+                    <li><strong>3.</strong> Equilibrio emocional</li>
+                    <li><strong>4.</strong> Empoderamento pessoal</li>
+                    <li><strong>5.</strong> Bem-estar emocional</li>
+                    <li><strong>6.</strong> Percepção dos relacionamentos</li>
+                    <li><strong>7.</strong> Ajuda para lidar com problemas <br>antigos</li>
+                </ul>
+            </div>
+
+            <div id="consultas">
+                <h2 id="tituloconsultas">Consultas</h2><br>
+                <div class="horarioatendimento">
+                    <div class="divhorario">
+                        <img id="calendario" src="calendario.png">
+                        <h3 id="agendamento">Agendamento</h3>
+                        <p>Whatsapp ou telefone</p>
+                    </div>
+                    <div class="divatendimento">
+                        <img id="dinheiro" src="dinheiro.png">
+                        <h3 id="horariotitulo">Preço e hora</h3>
+                        <p>60 minutos<br>R$130,00 a <br>R$185,00</p><br>
+                    </div>
+                    <div>
+                        <img id="reuniao" src="reunião.png">
+                        <h3 id="atendimentotitulo">Atendimento</h3>
+                        <p id="atendimento">Video chamada ou presencial<br>Segunda a Sexta- 08:00 a 20:00<br>Sábado e Domingo- 10:00 a 19:00<br>
+                        online</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="psicologas">
+                <h2 id="tituloprofissionais">Nossos profissionais</h2>
+                <div id="profissionais">
+                    <div>
+                        <img id="opcaoum" src="opcaoum.jpeg" alt="">
+                        <p id="textoprofissionalum">Mayumi Saruo</p>
+                        <p id="textprofissionalum">CRP: 06-108.708<br>
+                        Hipnoterapia<br>
+                        Pós graduação em Neurociência e<br> Psicologia Aplicada</br>
+                        <strong class="sessao">Sessão: R$130</strong></p>
+                    </div>
+                    <div>
+                        <img id="opcaodois" src="opcaodois.jpeg" alt="">
+                        <p id="textoprofissionaldois">Fernanda Lima</p>
+                        <p id="textprofissionaldois">CRP: 06-230.124<br>
+                            Mestrado em educação<br>
+                            Certificação em Coach e <br>Análise Comportamental pela SLAC</br>
+                            <strong class="sessao">Sessão: R$150</strong></p>
+                    </div>
+                    <div>
+                        <img id="opcaotres" src="opcaotres.jpeg" alt="">
+                        <p id="textoprofissionaltres">Rosangela Oliveira</p>
+                        <p id="textprofissionaltres">CRP: 06-110.430<br>
+                            Mestrado em educação<br>
+                            Doutorado em psicologia clinica<br>
+                            Especialista em analise comportamental<br>
+                            <strong class="sessao">Sessão: R$185</strong></p>
+                    </div>
+                    </div>
+                </div>
+
+                <form id="form">
+                    <div class="formulario">
+                <h2 id="tituloform">Entre em contato conosco</h2>
+                <p id="mensagemform">Mande mensagem e responderemos em breve</p><br>
+                    <label id="name" for="nome"><B>Nome</B></label><br>
+                    <input id="nome" type= "text" name= "nome" id= "nome" required><br>
+                <br>
+                    <label id="email1" for="nome"><b>Email</b></label><br>
+                    <input id="email" type= "email" name= "email" id= "email" required><br>
+                <br>
+                    <label id="phone" for="telefone"><b>Telefone</b></label><br>
+                    <input id="telefone" type= "tel" name= "telefone" id= "telefone" required><br>
+                <br>
+                    <label id="name" for="nome"><B>Digite sua mensagem</B></label><br>
+                    <textarea name="mensagem" id="textarea" cols="73" rows="8"></textarea><br>
+                <br>
+                    <input id="inputenviar" type="submit" name="submit" value="Enviar mensagem">
+                    </div>
+                </form>
+           
+            <div id="divinstitucional">
+                <div class="institucional">
+                    <h2>Institucional</h2>
+                    <p id="institucional">Oi, tudo bem? Fale com a gente!</p>
+                    <p id="endereço">Rua Nova Cidade, 301<br>Vila Olimpia, São Paulo</p>
+                    <p id="telefone">Tel: (11) 99950-8890</p>
+                    <p id="email">E-mail: psicoterapia@psicocare.com.br</p>
+                </div>
+                <div>
+                <img id="apresentação" src="apresentação.jpeg" alt="">
+                </div>
+            </div>
+               
+            <script src="psico.js"></script>
+        </body>
+    </html>
